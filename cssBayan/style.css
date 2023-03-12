@@ -9,6 +9,10 @@ body {
   box-sizing: border-box;
 }
 
+h1 {
+  text-align: center;
+}
+
 .container {
   max-width: 800px;
   margin: 0 auto;
@@ -17,7 +21,7 @@ body {
 }
 
 .container__bayan {
-    margin: 10px 0 10px 0;
+  margin: 10px 0 10px 0;
 }
 
 .key {
@@ -56,10 +60,16 @@ body {
 
 .content {
   display: none;
-
+  margin-top: 10px;
 }
 .content img {
-    cursor: pointer;
+  display: block;
+
+  width: 500px;
+  height: 500px;
+
+  cursor: pointer;
+  margin: 0 auto;
 }
 
 @keyframes animate_img {
